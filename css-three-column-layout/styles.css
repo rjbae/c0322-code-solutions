@@ -2,9 +2,6 @@
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
-  flex-direction: row;
-  justify-content: space-evenly;
-  flex-basis: auto;
 }
 
 h2 {
@@ -33,21 +30,8 @@ p {
   font-size: 16px;
 }
 
-.column-1 {
+.column-one-third {
   width: 33.33%;
-  text-align: center;
-  float: left;
-}
-
-.column-2 {
-  width: 33.33%;
-  float: left;
-  text-align: center;
-}
-
-.column-3 {
-  width: 33.33%;
-  float: left;
   text-align: center;
 }
 
