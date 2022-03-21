@@ -125,4 +125,21 @@ header {
 
 .ready-text {
   margin-left: 10em;
+  margin-bottom: 3em;
+}
+
+.ready-button {
+  position: relative;
+  left: 1100px;
+  bottom: 110px;
+}
+
+.get-started {
+  border: none;
+  background-color: #13315c;
+  color: white;
+  border-radius: 5px;
+  line-height: 3em;
+  width: 10em;
+  font-size: 16px;
 }
