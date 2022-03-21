@@ -39,7 +39,7 @@ header {
   height: 600px;
   margin-left: 10em;
   margin-top: 4em;
-  margin-bottom: 8em;
+  margin-bottom: 5em;
 }
 
 .hero-text {
@@ -75,6 +75,7 @@ header {
 
 .location-header {
   text-align: center;
+  margin-bottom: 3em;
 }
 
 .location-header h2 {
@@ -86,4 +87,42 @@ header {
   font-family: Avenir, sans-serif;
   color: gray;
   font-size: 14px;
+}
+
+.location-list {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  font-family: Avenir, sans-serif;
+  color: gray;
+  line-height: 3em;
+  width: 95%;
+  margin-bottom: 5em;
+}
+
+.location-list ul li {
+  list-style: none;
+}
+
+.locations {
+  background-color: whitesmoke;
+  padding-top: 3em;
+  padding-bottom: 1em;
+}
+
+.ready-text h3 {
+  font-family: "Tiempos Headline", serif;
+  color: gray;
+  font-size: 24px;
+}
+
+.ready-text p {
+  font-family: Avenir, sans-serif;
+  color: gray;
+  font-size: 13px;
+}
+
+.ready-text {
+  margin-left: 10em;
 }
