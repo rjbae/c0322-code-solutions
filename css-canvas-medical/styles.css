@@ -1,0 +1,31 @@
+header {
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+}
+
+.navbar {
+  display: flex;
+  list-style-type: none;
+  font-family: Avenir, sans-serif;
+  align-items: center;
+}
+
+.navbar li a {
+  padding: 0 25px;
+  text-decoration: none;
+  color: gray;
+}
+
+.contact-us {
+  font-family: Avenir, sans-serif;
+  color: white;
+  background-color: #13315c;
+  border-radius: 5px;
+  line-height: 2.5em;
+  width: 8em;
+  font-size: 16px;
+  border: none;
+}
