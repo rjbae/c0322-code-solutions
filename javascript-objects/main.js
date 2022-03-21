@@ -20,10 +20,10 @@ var vehicle = {
   year: 1968
 };
 
-vehicle.color = 'Yellow ';
-vehicle.isConvertible = false;
-console.log('value of vehicle.color:', vehicle.color);
-console.log('value of vehicle.isConvertible:', vehicle.isConvertible);
+vehicle['color'] = 'Yellow ';
+vehicle['isConvertible'] = false;
+console.log("value of vehicle['isConvertible']:", vehicle['isConvertible']);
+console.log("value of vehicle['color']:", vehicle['color']);
 console.log(vehicle);
 
 var pet = {
