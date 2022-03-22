@@ -7,7 +7,7 @@
 
 .row {
   display: flex;
-  text-align: center;
+  flex-basis: auto;
 }
 
 header {
@@ -27,6 +27,7 @@ header {
 .screen {
   width: 75%;
   padding-top: 1em;
+  margin-left: 2em;
 }
 
 .logo {
@@ -44,4 +45,9 @@ p {
 
 body {
   background-color: whitesmoke;
+}
+
+section {
+  text-align: center;
+  padding-top: 0;
 }
