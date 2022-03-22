@@ -1,0 +1,47 @@
+.container {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Barlow, sans-serif;
+}
+
+.row {
+  display: flex;
+  text-align: center;
+}
+
+header {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.column-full {
+  width: 100%;
+}
+
+.column-quarter {
+  width: 25%;
+}
+
+.screen {
+  width: 75%;
+  padding-top: 1em;
+}
+
+.logo {
+  width: 20%;
+}
+
+h3 {
+  font-size: 12px;
+  font-weight: 900;
+}
+
+p {
+  font-size: 10px;
+}
+
+body {
+  background-color: whitesmoke;
+}
