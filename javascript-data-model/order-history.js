@@ -51,15 +51,15 @@ var orderHistory = [
     orderNumber: '113-2883177-2648248',
     deliveryDate: 'Jul 5, 2020',
     deliveryMethod: null,
-    item: [
+    item:
       {
         name: 'GameCube Controller - Super Smash Bros. Edition (Nintendo Switch)',
         price: 94.95,
         type: 'Gaming Accessory',
         author: null,
         returnWindow: 'Closed on Aug 4, 2020'
-      }],
-    items: [
+      },
+    items:
       {
         name: 'The Art of Sql',
         price: 33.99,
@@ -67,7 +67,6 @@ var orderHistory = [
         author: 'Faroult, Stephanie',
         returnWindow: 'Closed on Aug 4, 2020'
       }
-    ]
   }
 ];
 
