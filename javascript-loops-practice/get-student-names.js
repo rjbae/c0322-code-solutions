@@ -1,7 +1,7 @@
 /* exported getStudentNames */
 function getStudentNames(students) {
   var newArray = [];
-  for (var prop in students) {
-    newArray.push(students[prop]);
+  for (var i = 0; i < students.length; i++) {
+    newArray.push(students[i].name);
   } return newArray;
 }
