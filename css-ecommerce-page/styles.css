@@ -48,6 +48,8 @@ section p {
   background: rgb(247 203 186);
   width: 2em;
   color: black;
+  position: relative;
+  bottom: 15px;
 }
 
 .triple-price {
@@ -55,10 +57,17 @@ section p {
   background: rgb(247 203 186);
   width: 35px;
   color: black;
+  position: relative;
+  bottom: 15px;
 }
 
 img {
   max-width: 100%;
   height: 250px;
   object-fit: contain;
+}
+
+section s {
+  position: relative;
+  bottom: 15px;
 }
