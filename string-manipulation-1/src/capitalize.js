@@ -5,6 +5,7 @@ function capitalize(word) {
 
 // - Looking to return the string value of word with the first letter uppercased and the
 //  rest in lowercase.
+// - Define a function named capitalize with a single parameter of word.
 // - Capitalize the first letter of the value of word by using the function method of
 //  charAt(0) and toUpperCase().
 // - The 0 in the function method charAt indicates which index to capitalize at.

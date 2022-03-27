@@ -12,12 +12,12 @@ function isVowel(char) {
 // - Checking to see if the value of char is a vowel.
 // - Capitalized vowels must be included.
 // - Define a function named isVowel with the parameter of char.
-// - char containes a string value of one letter.
+// - char containes a string value of one letter, either uppercased or lowercased.
 // - Need to create a boolean to check if char is a vowel or not.
 // - Create an if statement with the first condition checking to see if the value of char
 //  is strictly equal to a string value of a lowercase vowel.
 // - Return the boolean value of true.
-// - Create an else if statement to check if the value of char is strictly eqaul to a string
+// - Create an else if statement to check if the value of char is strictly equal to a string
 //  value of a uppercase vowel.
 // - Return the boolean value of true.
 // - Create an else statement with the return value of false if the first two conidtionals

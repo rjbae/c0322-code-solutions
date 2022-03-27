@@ -7,7 +7,7 @@ function isUpperCased(word) {
   }
 }
 
-// - Checking to see if the value of word is all uppercased.
+// - Checking to see if the string value of word is all uppercased.
 // - Define a function named isUpperCased with one parameter of word.
 // - Use a boolean to check if the value of word is all uppercased.
 // - Create a conditional using an if statement.
