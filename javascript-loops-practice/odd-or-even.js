@@ -6,6 +6,8 @@ function oddOrEven(numbers) {
       numbers[i] = 'even';
     } else if (numbers[i] !== 0) {
       numbers[i] = 'odd';
-    } newArray.push(numbers[i]);
-  } return newArray;
+    }
+    newArray.push(numbers[i]);
+  }
+  return newArray;
 }

@@ -6,8 +6,7 @@ function includesSeven(array) {
   for (let i = 0; i < array.length; i++) {
     if (array[i] === 7) {
       return true;
-    } else if (i + 1 === array.length) {
-      return false;
     }
   }
+  return false;
 }
