@@ -36,6 +36,8 @@ section {
   display: flex;
   align-items: center;
   font-size: 13px;
+  position: relative;
+  right: 2px;
 }
 
 section p {
@@ -44,21 +46,23 @@ section p {
 }
 
 .price {
-  font-size: 14px;
+  font-size: 13px;
   background: rgb(247 203 186);
   width: 2em;
   color: black;
   position: relative;
   bottom: 15px;
+  right: 4px;
 }
 
 .triple-price {
-  font-size: 14px;
+  font-size: 13px;
   background: rgb(247 203 186);
-  width: 35px;
+  width: 33px;
   color: black;
   position: relative;
   bottom: 15px;
+  right: 5px;
 }
 
 img {
