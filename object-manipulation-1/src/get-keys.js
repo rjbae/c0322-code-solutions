@@ -3,7 +3,8 @@ function getKeys(object) {
   var keys = [];
   for (var key in object) {
     keys.push(key);
-  } return keys;
+  }
+  return keys;
 }
 
 // - Obtaining an object's property keys and assigning it to a new array.

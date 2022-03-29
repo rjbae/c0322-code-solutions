@@ -3,13 +3,10 @@ function toObject(keyValuePair) {
   var value = '';
   var key = '';
   var obj = {};
-  for (var i = 0; i < keyValuePair.length; i++) {
-    if (i === 0) {
-      key = keyValuePair[0];
-    } else {
-      value = keyValuePair[1];
-    } obj[key] = value;
-  } return obj;
+  key = keyValuePair[0];
+  value = keyValuePair[1];
+  obj[key] = value;
+  return obj;
 }
 
 // - Store the key value pair into an array.

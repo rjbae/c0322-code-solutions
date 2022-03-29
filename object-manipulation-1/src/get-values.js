@@ -3,7 +3,8 @@ function getValues(object) {
   var values = [];
   for (var key in object) {
     values.push(object[key]);
-  } return values;
+  }
+  return values;
 }
 
 // - Assign an array to the object's property values.
