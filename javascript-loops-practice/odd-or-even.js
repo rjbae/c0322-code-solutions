@@ -2,12 +2,13 @@
 function oddOrEven(numbers) {
   var newArray = [];
   for (let i = 0; i < numbers.length; i++) {
-    if (numbers[i] % 2 === 0) {
-      numbers[i] = 'even';
-    } else if (numbers[i] !== 0) {
-      numbers[i] = 'odd';
+    var newNum = numbers[i];
+    if (newNum % 2 === 0) {
+      newNum = 'even';
+    } else if (newNum !== 0) {
+      newNum = 'odd';
     }
-    newArray.push(numbers[i]);
+    newArray.push(newNum);
   }
   return newArray;
 }
