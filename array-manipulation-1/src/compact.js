@@ -5,7 +5,8 @@ function compact(array) {
     if (array[i]) {
       newArray.push(array[i]);
     }
-  } return newArray;
+  }
+  return newArray;
 }
 
 // - Removing falsy values from each array and assigning the new value into an empty array.

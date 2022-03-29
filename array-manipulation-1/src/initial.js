@@ -3,7 +3,8 @@ function initial(array) {
   var newArray = [];
   for (var i = 0; i < array.length - 1; i++) {
     newArray.push(array[i]);
-  } return newArray;
+  }
+  return newArray;
 }
 
 // - Trying to delete the last value of an array and return the rest of the value in

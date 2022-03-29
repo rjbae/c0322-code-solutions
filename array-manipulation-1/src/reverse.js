@@ -3,7 +3,8 @@ function reverse(array) {
   var newArray = [];
   for (let i = array.length - 1; i >= 0; i--) {
     newArray.push(array[i]);
-  } return newArray;
+  }
+  return newArray;
 }
 
 // - Creating a new array with all the values of the original array in reverse order.

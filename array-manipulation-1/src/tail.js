@@ -1,10 +1,10 @@
 /* exported tail */
 function tail(array) {
   var newArray = [];
-  delete array[0];
   for (var i = 1; i < array.length; i++) {
     newArray.push(array[i]);
-  } return newArray;
+  }
+  return newArray;
 }
 
 // - Trying to delete the first value of an array and return the rest of the values
