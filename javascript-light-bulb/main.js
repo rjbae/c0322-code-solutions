@@ -1,19 +1,20 @@
-var lightOn = Boolean;
-
+var onOrOff = true;
 var light = document.querySelector('.bulb');
 var backgroundColor = document.querySelector('.background');
 
 light.addEventListener('click', button);
 
 function button(event) {
-  var onOrOff = null;
-  if (lightOn === true) {
-    onOrOff = 'on';
+  var color = null;
+  if (onOrOff === true) {
+    onOrOff = false;
+    color = 'off';
   } else {
-    onOrOff = 'off';
+    onOrOff = true;
+    color = 'on';
   }
-  light.className = 'bulb ' + onOrOff;
-  backgroundColor.className = 'background ' + onOrOff;
+  light.className = 'bulb ' + color;
+  backgroundColor.className = 'background ' + color;
 }
 
 // - Logic: If the light is turned on, then the button should be a light yellow color and the
@@ -41,11 +42,11 @@ function button(event) {
 // having to create it again.
 // - Within the function code block we are going to write a conditional statement to check
 // if the button is on or off.
-// - If the button is on, then the onOrOff variable will take the value of the string 'on'.
-// - If the button is off, then the onOrOff variable will take the value of the string 'off'.
+// - If the button is on, then the onOrOff variable will take the boolean value of true.
+// - If the button is off, then the onOrOff variable will take the boolean value of false.
 // - After the conditional statement, we are going to concatenate the the original class name with a new
 // class name of the variable color, which holds the values of 'on' or 'off'. To add this class name we
-// must use the className property of the variable that hold the value of the .bulb class. light.className = 'bulb ' + onOrOff
+// must use the className property of the variable that hold the value of the .bulb class. light.className = 'bulb ' + color
 // - We also add the new class name of the variable color to the original class name from the variable that stored the
-// .background class in. backgroundColor.className = 'background ' + onOrOff
+// .background class in. backgroundColor.className = 'background ' + color
 // - We create these new classes so that it refers back to styles.css of what color to take when it's 'on' or 'off'.
