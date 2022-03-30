@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(243 232 217);
+}
+
+button {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  border: none;
+  position: relative;
+  top: 250px;
+  background: rgb(243 243 120);
+}
+
+.bulb.on {
+  background: rgb(243 243 120);
+}
+
+.bulb.off {
+  background: rgb(68 68 68);
+  box-shadow: 20px -5px 5px rgb(27 27 27);
+  transform: rotate(-75deg);
+}
+
+.background.on {
+  background: rgb(243 232 217);
+}
+
+.background.off {
+  background: black;
+}
