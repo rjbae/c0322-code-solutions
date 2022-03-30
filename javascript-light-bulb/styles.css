@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: rgb(243 232 217);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  text-align: center;
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  border: none;
+  position: relative;
+  top: 250px;
+  background-color: rgb(243 243 120);
+}
+
+.container {
+  max-width: 100%;
+}
+
+.bulb.on {
+  background: rgb(243 243 120);
+}
+
+.bulb.off {
+  background: rgb(68 68 68);
+  box-shadow: 20px -5px 5px rgb(27 27 27);
+  transform: rotate(-75deg);
+}
+
+.background.on {
+  background: rgb(243 232 217);
+}
+
+.background.off {
+  background: black;
+}
