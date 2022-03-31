@@ -12,7 +12,6 @@ function modalEvent(event) {
   var show = null;
   if (popUp === true) {
     popUp = false;
-    show = 'noshow';
   } else {
     popUp = true;
     show = 'show';
