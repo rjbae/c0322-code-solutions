@@ -37,17 +37,16 @@ h2 {
   position: fixed;
   height: 100vh;
   width: 100vw;
-  opacity: 0;
 }
 
-.modal {
+.noshow {
+  display: none;
+}
+
+.modal .noshow {
   background-color: white;
   width: 30%;
   height: 30%;
-}
-
-.modal-container.show {
-  opacity: 1;
 }
 
 .background.show {
