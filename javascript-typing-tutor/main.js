@@ -1,16 +1,13 @@
-// var charSpan = document.querySelectorAll('span');
-// var characters = document.querySelector('.letters');
-// var correct = true;
+var charSpan = document.querySelectorAll('span');
+var i = 0;
 
-// document.addEventListener('keydown', function (event) {
-//   for (var i = 0; i < charSpan.length; i++) {
-//     var text = charSpan[i].innerText;
-//     if (event.key === charSpan[i].innerText) {
-//       correct = true;
-//       charSpan.className = 'correct';
-//     } else {
-//       correct = false;
-//       charSpan.className = 'incorrect';
-//     }
-//   }
-// });
+document.addEventListener('keydown', function (event) {
+  if (event.key === null) {
+    charSpan[i].className = 'letters';
+  } if (charSpan[i].innerText === event.key) {
+    charSpan[i].className = 'correct';
+    i++;
+  } else {
+    charSpan[i].className = 'incorrect';
+  }
+});

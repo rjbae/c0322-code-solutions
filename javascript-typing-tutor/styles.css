@@ -12,22 +12,22 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
+  letter-spacing: -4px;
+}
+
+span {
+  white-space: pre;
+}
+
+.letters {
+  border-bottom: 2px solid black;
 }
 
 .correct {
   color: green;
-  text-decoration: black underline;
 }
 
 .incorrect {
   color: red;
-  text-decoration: red underline;
-}
-
-.letters {
-  letter-spacing: -10px;
-}
-
-.space {
-  white-space: pre;
+  border-bottom: solid 2px red;
 }
