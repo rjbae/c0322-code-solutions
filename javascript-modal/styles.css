@@ -18,6 +18,10 @@ h2 {
   padding-bottom: 2em;
 }
 
+body {
+  background-color: white;
+}
+
 .no-button {
   border-radius: 5px;
   background-color: rgb(230 73 73);
@@ -39,20 +43,15 @@ h2 {
   width: 100vw;
 }
 
-.noshow {
+.no-show {
   display: none;
 }
 
-.modal .noshow {
+.modal {
   background-color: white;
-  width: 30%;
-  height: 30%;
+  padding: 3em;
 }
 
-.background.show {
-  background: rgb(105 102 102);
-}
-
-.open-button.show {
-  opacity: 0.5;
+.background {
+  background-color: gray;
 }
